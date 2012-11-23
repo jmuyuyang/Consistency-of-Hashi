@@ -12,7 +12,7 @@ $consistent = new YConsistent();
 ####conhash init
 $consistent->consistent_init();
 ####add servers
-$consistent->add_server(host,port,weight£©   
+$consistent->add_server(host,port,weight);  
 paramters:   
 char host  
 int port   
