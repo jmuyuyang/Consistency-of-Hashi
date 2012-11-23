@@ -2,10 +2,11 @@ Consistency of Hashi IN PHP EXTENSION
 ================= 
 consistency of hashi written in c and built as a PHP extension
 ###install
+```
 $/path/to/phpize
 $./configure --with-php-config=/path/to/php-config
 $make && make install
-
+```
 ###Document
 $consistent = new YConsistent();
 ####conhash init
